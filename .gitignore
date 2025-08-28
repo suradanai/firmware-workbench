@@ -1,0 +1,38 @@
+# === Python environments ===
+.venv/
+venv/
+
+# Bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# FMK work artifacts
+workspaces/
+output/
+logs/
+tmp/
+
+# Firmware binaries (อย่า commit ของจริง)
+*.bin
+*.img
+*.trx
+*.chk
+*.zip
+*.tar
+*.tar.gz
+
+# ถ้าต้องการเก็บตัวอย่าง .bin ใส่ใน input/sample/ แล้วยกเลิก ignore แบบจำเพาะ
+# !input/sample/example.bin
+
+# External FMK (ถ้าไม่ใช้ submodule)
+external/firmware_mod_kit/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Reports / temp notes
+docs/*~

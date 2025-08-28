@@ -1,0 +1,21 @@
+cd ~/Desktop
+git clone <repo-firmware-workbench> firmware-workbench
+cd firmware-workbench
+
+# เตรียม FMK
+git clone https://github.com/rampageX/firmware-mod-kit.git external/firmware_mod_kit
+cd external/firmware_mod_kit/src
+make -j1
+cd ../../../   # กลับรากโปรเจกต์
+
+# เตรียม venv
+python3 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+
+# (ถ้าต้อง binwalk ใหม่)
+pip install binwalk
+
+# รัน
+python app.py

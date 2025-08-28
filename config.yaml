@@ -1,0 +1,4 @@
+fmk:
+  root: external/firmware_mod_kit
+  use_sudo_extract: auto
+  use_sudo_build: auto

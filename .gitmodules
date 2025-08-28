@@ -1,0 +1,3 @@
+[submodule "external/firmware_mod_kit"]
+	path = external/firmware_mod_kit
+	url = https://github.com/rampageX/firmware-mod-kit.git

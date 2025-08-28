@@ -1,0 +1,7 @@
+ติดตั้ง python3.10
+sudo apt install python3.10-venv python3.10
+python3.10 -m venv venv310
+source venv310/bin/activate
+pip install --upgrade pip
+pip install PySide6 passlib
+python3 app.py
