@@ -1,5 +1,0 @@
-PySide6>=6.4.0
-passlib>=1.7.4
-# หากใช้ subprocess กับ unsquashfs/mksquashfs/file ให้เตรียมไว้ในโฟลเดอร์ ไม่ต้อง install
-# หากต้องการ build ด้วย pyinstaller (optional) ให้เพิ่มบรรทัดนี้:
-pyinstaller>=5.13.0
